@@ -1,0 +1,69 @@
+# 1234567 — 7-Segment Character Set
+
+**1234567** is a solid seven-segment display font for price panels, digital readouts, counters, and signage.
+
+![1234567 font preview](1234567-Preview.png)
+
+## Download
+
+[Download 1234567 Regular (TTF)](1234567-Regular.ttf)
+
+## Features
+
+- Solid segments with narrow gaps.
+- Diagonal ends on the six outer segments; arrow-shaped ends on the middle segment.
+- A clean **3**, using only segments **a, b, c, d, g**.
+- Adjusted spacing for **1**, including repeated digits such as **11**.
+- Decimal points and commas with digit-specific spacing.
+- TrueType (`.ttf`) format; tested by the author in Microsoft Word and Notepad on Windows.
+
+## Supported Characters
+
+| Category | Characters |
+| --- | --- |
+| Digits | `0123456789` |
+| Uppercase letters | `A C E F H L P S U` |
+| Lowercase equivalents | `a c e f h l p s u` |
+| Additional lowercase forms | `d n o r` |
+| Symbols | `+ - = _ . , :` |
+| Spacing | Space |
+
+This is a limited seven-segment character set, not a complete alphabet. Lowercase equivalents use the corresponding uppercase segment shapes.
+
+Unsupported characters in the covered Latin, Turkish, and general punctuation ranges intentionally appear as **hollow boxes**. These placeholders help keep subsequent typing in the selected font. Characters outside these ranges may still use an application fallback font.
+
+## Installation
+
+1. Download `1234567-Regular.ttf`.
+2. Open the file and select **Install**.
+3. Reopen your application and select **1234567** from the font list.
+
+When replacing an older installation with the same name, close your applications, uninstall the previous font, and install the new file.
+
+## Microsoft Word
+
+For the intended decimal spacing, select your text, open the **Font** dialog (`Ctrl+D`), and select **Advanced**. Enable **Kerning for fonts** and set the threshold to **1 point and above**.
+
+Some applications display font names using each font's own characters. If the name is difficult to read in the list, type `1234567` directly into the font selector.
+
+## Examples
+
+```text
+0123456789
+1.23.45.67.89
+11
+56.78
+93,05
+12:34
+SALE
+```
+
+## Files
+
+- `1234567-Regular.ttf` — installable font.
+- `1234567-Preview.png` — preview rendered from the included font, with kerning enabled.
+- `README.md` — installation and usage notes.
+
+## Feedback
+
+Please open an issue with the text you entered, your application and operating system, and a screenshot showing the problem.
